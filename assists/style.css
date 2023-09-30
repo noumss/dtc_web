@@ -1,50 +1,55 @@
 body {
-    
+
     height: 120vh;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     background: #A67DB8;
-    margin-left: 20%;
-    margin-right: 20%;
-   
+    /*margin-left: auto;
+    margin-right: auto;*/
+
 
 }
+
 .corps {
     background-color: rgb(149, 111, 209);
     height: 120vh;
     display: flex;
-    flex-direction:column;
-    
-    
+    flex-direction: column;
 }
 
 .profil {
     text-align: center;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
 }
+
 a {
-    color:currentColor;
+    color: currentColor;
     text-decoration: none;
 }
 
 .image {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    display: block;
     
+
 }
 
 .experience {
     text-align: center;
-    
+
 
 }
+
 .formation {
     text-align: center;
+    display: block;
     
+   
+
+
 }
 
 table,
@@ -55,22 +60,29 @@ td {
     background-color: #725a80;
     margin-left: auto;
     margin-right: auto;
-    border-style:dashed;
+    border-style: dashed;
 
 }
+
 td,
 th {
     padding: 25px;
 }
+
 th {
-    font-size: large;background-color: #9a48b388;
+    font-size: large;
+    background-color: #9a48b388;
 
 }
+
 a.download {
-    outline: none;
-    text-decoration: none;
+    display: block;
     text-align: center;
-    color: rgb(105, 0, 44);
-    padding: 80px;
-    
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #3d2437;
+    background-color: rgb(129, 206, 230);
+    box-shadow: 10px 1px 10px #46473bd0;
+    border-radius: 5px;
+
 }
